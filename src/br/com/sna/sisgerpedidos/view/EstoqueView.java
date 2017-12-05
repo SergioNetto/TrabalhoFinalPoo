@@ -5,6 +5,9 @@ import br.com.sna.sisgerpedidos.business.EstoqueBus;
 import br.com.sna.sisgerpedidos.model.Produto;
 import javax.swing.table.DefaultTableModel;
 
+/*
+Serve apenas para a visualização dos produtos
+*/
 
 public class EstoqueView extends javax.swing.JFrame {
 

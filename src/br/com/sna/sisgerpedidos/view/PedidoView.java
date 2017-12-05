@@ -155,6 +155,10 @@ public class PedidoView extends javax.swing.JFrame {
         telaItem.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btAdicionarItemMouseClicked
 
+/*
+Fecha o pedido e gera uma "Nota" 
+*/
+    
     private void btFecharPedidoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btFecharPedidoMouseClicked
         NumberFormat moeda = new DecimalFormat("#0.00");
         String valor;
@@ -183,6 +187,7 @@ public class PedidoView extends javax.swing.JFrame {
         this.setVisible(false);        
     }//GEN-LAST:event_btFecharPedidoMouseClicked
 
+    // Atualiza as informações quando omfoco volta para a janela
     private void formWindowGainedFocus(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowGainedFocus
         atualizaTela();
     }//GEN-LAST:event_formWindowGainedFocus

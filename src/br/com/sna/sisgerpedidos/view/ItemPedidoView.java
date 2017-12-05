@@ -14,6 +14,11 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
+/*
+para selecionar item por item do pedido
+Primeiro se busca o produto e em seguida se calcula o valor final
+de acordo com a quantidade desejada
+*/
 
 public class ItemPedidoView extends javax.swing.JFrame {
 
@@ -30,7 +35,9 @@ public class ItemPedidoView extends javax.swing.JFrame {
         this.ped = ped;
         this.pedBus = pedBus;
     }
-
+/*
+testaCampo criado para colocar o Throws, pois não o metodo de evento não permite alteração
+*/
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -233,7 +240,11 @@ public class ItemPedidoView extends javax.swing.JFrame {
                     item.setQtdProd(item.getQtdProd()-itemPed.getQtdItem());                  
                     break;
                 }
-            }            
+            }  
+            /*
+            Fecha a janela e o foco volta para PedidoView,
+            onde o evento foco gera uma atualização da lista dos item pedidos
+            */
             this.setVisible(false);
             
 

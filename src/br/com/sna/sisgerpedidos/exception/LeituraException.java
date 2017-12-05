@@ -1,6 +1,11 @@
 
 package br.com.sna.sisgerpedidos.exception;
 
+/*
+Trata várias exceções chamadas dos campos de leitura de 
+acordo com o código do exceção
+*/
+
 public class LeituraException extends Exception{
     private int codigo;
     private String mensagem;

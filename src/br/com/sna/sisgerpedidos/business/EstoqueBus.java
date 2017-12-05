@@ -4,6 +4,9 @@ package br.com.sna.sisgerpedidos.business;
 import br.com.sna.sisgerpedidos.model.Produto;
 import java.util.ArrayList;
 import java.util.List;
+/*
+Armazena os produtos cadastrados para utilização no pedido
+*/
 
 
 public class EstoqueBus {
